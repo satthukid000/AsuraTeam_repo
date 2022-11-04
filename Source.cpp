@@ -15,6 +15,9 @@ int USCLN(int a, int b) {
 void Goodbye()
 {
 	cout << "goodbye";
+void Hello()
+{
+	cout << "Hello";
 }
 int main()
 {
@@ -29,7 +32,7 @@ int main()
 
 	cout << "USCLN: " << USCLN(a, b);
 
-
+	Hello();
 	Goodbye();
 	system("pause");
 	return 0;
