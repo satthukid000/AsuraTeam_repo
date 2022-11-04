@@ -1,10 +1,16 @@
 #include <iostream>
 
 using namespace std;
-int tong(int a, int b);
-int hieu(int a, int b);
-int tich(int a, int b);
-float thuong(int a, int b);
+int USCLN(int a, int b){
+	a = abs(a);
+	b = abs(b);
+	while(a!=b)
+	if (a>b)
+	a=a-b
+	else
+	b=b-a;
+	return 0;
+}
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
@@ -16,23 +22,7 @@ int main()
 	cout<<"Nhap gia tri b: ";
 	cin>>b;
 	
-	int tong=0;
-	tong= a+b;
-	cout<<"Tong la : "<<tong<<endl;
-	
-	int hieu=0;
-	tong= a-b;
-	cout<<"Hieu la : "<<hieu<<endl;
-	
-	int tich=0;
-	tong= a*b;
-	cout<<"Tich la : "<<tich<<endl;
-asd
-	
-	int thuong=0;
-	tong= a/b;
-	cout<<"Thuong la : "<<thuong<<endl;
-	
+	cout << "USCLN: " << USCLN(a, b);
 	
 	
 
