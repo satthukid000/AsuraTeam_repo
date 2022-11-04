@@ -11,6 +11,11 @@ int USCLN(int a, int b){
 	b=b-a;
 	return 0;
 }
+
+void Hello()
+{
+	cout << "Hello";
+}
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
@@ -23,8 +28,8 @@ int main()
 	cin>>b;
 	
 	cout << "USCLN: " << USCLN(a, b);
-	
-	
+
+	Hello();
 
 	system("pause");
 	return 0;
